@@ -1,0 +1,61 @@
+/*=================================
+Fonts
+=================================*/
+
+/*=================================
+Base styles
+=================================*/
+a {
+  text-decoration: none;
+}
+
+.container {
+}
+
+.container-padded {
+}
+
+/*=================================
+Special classes
+=================================*/
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.ol-block {
+  outline: 2px solid tomato;
+}
+
+.bg-block {
+  background-color: rgba(255, 99, 71, 0.4);
+}
+
+.ol-element {
+  outline: 1px dashed seagreen;
+}
+
+.bg-element {
+  background-color: rgba(46, 139, 87, 0.2);
+}
+
+/*=================================
+Animation styles
+=================================*/
+
+/*=================================
+Grid styles
+=================================*/
+
+/*=================================
+Decor&Typography styles
+=================================*/
