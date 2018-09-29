@@ -1,18 +1,34 @@
+@charset "UTF-8";
+
 /*=================================
 Fonts
 =================================*/
+@font-face {
+  font-family: "My favorite font";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/My-favorite-font.woff2") format("woff2"),
+    url("../fonts/My-favorite-font.woff") format("woff");
+}
 
 /*=================================
 Base styles
 =================================*/
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
 }
 
 .container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .container-padded {
+  padding: 0 30px;
 }
 
 /*=================================
@@ -26,14 +42,21 @@ Special classes
   border: 0;
   padding: 0;
   white-space: nowrap;
-  -webkit-clip-path: inset(100%);
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
-.ol-block {
+.ol-block--1 {
   outline: 2px solid tomato;
+}
+
+.ol-block--2 {
+  outline: 2px solid green;
+}
+
+.ol-block--3 {
+  outline: 2px solid darkmagenta;
 }
 
 .bg-block {
