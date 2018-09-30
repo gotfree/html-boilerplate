@@ -3,7 +3,11 @@
 
 ---
 ## Адаптивная верстка
-~<meta name="viewport" content="width=device-width, initial-scale=1.0">~
+
+### Первым делом
+~~~
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+~~~
 
 ### Адаптивные изображения
 ~~~~~~
